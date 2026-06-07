@@ -1,9 +1,8 @@
 cv:
   name: Vishakha Jain
-  label: Healthcare Professional
+  headline: Healthcare Professional
   email: vishakhj@uci.edu
   location: Redwood City, CA
-  summary: Healthcare professional with 7 years of combined experience in healthcare strategy consulting, policy research and project management.
 
   social_networks:
     - network: LinkedIn
@@ -11,36 +10,27 @@ cv:
     - network: Google Scholar
       username: Vishakha Jain
 
-  address:
-    street: 141 Wellesley Crescent
-    city: Redwood City
-    region: California
-    postalCode: "94062"
-    countryCode: US
-
   sections:
     Education:
       - institution: University of California, Irvine
         location: Irvine, California
         area: Biotechnology Management
-        studyType: Masters of Science
+        degree: MS
         start_date: 2017
         end_date: 2019
-        score: "3.62"
 
       - institution: Jaypee University of Information Technology
         location: India
         area: Biotechnology
-        studyType: Bachelors of Engineering
+        degree: BE
         start_date: 2011
-        end_date: 2015   # FIX: Changed from 2016 — a 4-year engineering degree starting in 2011 ends in 2015. Adjust if the program was 5 years.
+        end_date: 2015
 
     Experience:
       - company: Acumen LLC
         position: Lead Research Analyst
         location: Burlingame, CA
         start_date: 2023
-        # FIX: Removed end_date — if currently employed here, omit end_date rather than listing a future year (was 2026).
         summary: Collaborated as a lead project coordinator with various US government public health agencies.
 
       - company: Oracle (Cerner Enviza)
@@ -74,70 +64,53 @@ cv:
       - company: Healthcare Businesswomen's Association (HBA)
         position: Programming Team Volunteer
         location: San Francisco, CA
-        start_date: 2025-01   # FIX: Standardized date format from 2025-01-31 to YYYY-MM to match other entries.
+        start_date: 2025-01
         summary: Collaborated and supported team members in organizing biotech/pharma events.
 
     Publications:
       - title: "Microalgae based Pharmaceuticals and Nutraceuticals: an emerging field with immense market potential"
-        # FIX: Corrected "Microalage" → "Microalgae" and "Neutraceuticals" → "Nutraceuticals" (two spelling errors, in both title and summary below).
         authors:
           - Durga Jha
           - Vishakha Jain
           - Brinda Sharma
           - Anil Kant
           - Vijay Kumar Garlapati
-        publisher: ChemBioEng Reviews
-        releaseDate: 2017-05-22
+        journal: ChemBioEng Reviews
+        date: "2017-05-22"
         url: https://onlinelibrary.wiley.com/doi/abs/10.1002/cben.201600023
         summary: Describes the advantages of microalgae in the pharmaceutical and nutraceutical industry due to its Generally Regarded as Safe (GRAS) status.
 
     Skills:
-      - name: Market Research
-        level: Advanced
-        keywords: "Quantitative Research, Qualitative Research"
-
-      - name: Business Strategy
-        level: Advanced
-        keywords: "Market Opportunity Assessment, Launch Strategy, Competitive Intelligence, Commercial Due Diligence"
-
-      - name: Project Management
-        level: Advanced
-        keywords: "MS-Project, Smartsheet"
-
-      - name: Cross-Functional Collaboration
-        level: Advanced
-        keywords: "Managing diverse teams, Collaborating with diverse stakeholders"
-
-      - name: Data Analysis
-        level: Advanced
-        keywords: "Quantitative data analysis, Qualitative data analysis"
+      - label: Market Research
+        details: "Quantitative Research, Qualitative Research"
+      - label: Business Strategy
+        details: "Market Opportunity Assessment, Launch Strategy, Competitive Intelligence, Commercial Due Diligence"
+      - label: Project Management
+        details: "MS-Project, Smartsheet"
+      - label: Cross-Functional Collaboration
+        details: "Managing diverse teams, Collaborating with diverse stakeholders"
+      - label: Data Analysis
+        details: "Quantitative data analysis, Qualitative data analysis"
 
     Languages:
-      - name: English
-        summary: "Fluent"
+      - label: English
+        details: Fluent
 
     Interests:
-      - name: Strategic Planning
-        keywords: "Strategic Insights, Strategic Planning, Strategic Initiatives"
-
-      - name: Project Management
-        keywords: "Project Manager, Program Manager, Lead Coordinator"
-
-      - name: Healthcare
-        keywords: "Biotech, Pharma, Public Health"
+      - label: Strategic Planning
+        details: "Strategic Insights, Strategic Planning, Strategic Initiatives"
+      - label: Project Management
+        details: "Project Manager, Program Manager, Lead Coordinator"
+      - label: Healthcare
+        details: "Biotech, Pharma, Public Health"
 
     Certificates:
       - name: Intro to SQL for Data Science
-        date: 2019-05-01
-        issuer: DataCamp
-        icon: fa-solid fa-database   # FIX: Changed from fa-location-dot — updated to a more semantically relevant icon.
-
+        date: "2019-05-01"
+        summary: "Issued by DataCamp"
       - name: Investment Evaluation
-        date: 2019-10-01
-        issuer: LinkedIn
-        icon: fa-solid fa-chart-line  # FIX: Changed from fa-tag — updated to a more relevant icon.
-
+        date: "2019-10-01"
+        summary: "Issued by LinkedIn"
       - name: "Excel Data Analysis: Forecasting"
-        date: 2020-10-01
-        issuer: LinkedIn
-        icon: fa-solid fa-table       # FIX: Changed from fa-envelope — updated to a more relevant icon.
+        date: "2020-10-01"
+        summary: "Issued by LinkedIn"
