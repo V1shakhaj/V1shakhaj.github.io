@@ -7,45 +7,37 @@ cv:
   summary: Healthcare professional with 7 years of combined experience in healthcare strategy consulting, policy research and project management. 
 
   social_networks:
-    - network: X
+    - network: https://www.linkedin.com/in/vishakha-jain/
       username: Vishakha Jain
-    - network: 
-      username: example
     - network: LinkedIn
-      username: example
+     
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
+    street: 141 Wellesley Crescent 
+    city: Redwood City
     region: California
-    postalCode: CA 94115
+    postalCode: CA 94062
     countryCode: US
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: University of California, Irvine
+        location: Irvine, California
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+        area: Biotechnology Management
+        studyType: Masters of Science 
+        start_date: 2017
+        end_date: 2019
+        GPA: 3.62
+      
 
+      - institution: Jaypee University of Information Technology
+        location: Waknaghat, Himachal Pradesh
+        area: Biotechnology
+        studyType: Bachelors of Engineering
+        start_date: 2011
+        end_date: 2016
+        
     Experience:
       - company: Institute for Advanced Study, Princeton University
         position: Professor of Theoretical Physics
