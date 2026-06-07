@@ -1,25 +1,13 @@
 cv:
-  name: Vishakha
-  label: Healthcare Professional
+  name: Vishakha Jain
   email: vishakhj@uci.edu
   location: Redwood City, CA
-  image: ""
-  summary: Healthcare professional with 7 years of combined experience in healthcare strategy consulting, policy research and project management.
 
   social_networks:
     - network: LinkedIn
-      username: Vishakha Jain
-      url: https://www.linkedin.com/in/vishakha-jain/
+      username: vishakha-jain
     - network: Google Scholar
       username: Vishakha Jain
-      url: https://scholar.google.com/citations?view_op=list_works&hl=en&user=3-b96uYAAAAJ
-
-  address:
-    street: 141 Wellesley Crescent
-    city: Redwood City
-    region: California
-    postalCode: "94062"
-    countryCode: US
 
   sections:
     Education:
@@ -29,7 +17,7 @@ cv:
         studyType: Masters of Science
         start_date: 2017
         end_date: 2019
-        GPA: 3.62
+        GPA: "3.62"
 
       - institution: Jaypee University of Information Technology
         location: India
@@ -78,7 +66,6 @@ cv:
         position: Programming Team Volunteer
         location: San Francisco, CA
         start_date: 2025-01-31
-        end_date: Present
         summary: Collaborated and supported team members in organizing biotech/pharma events.
 
     Publications:
