@@ -1,44 +1,43 @@
 cv:
   name: Vishakha
-  label: Healthcare Professional 
+  label: Healthcare Professional
   email: vishakhj@uci.edu
   location: Redwood City, CA
   image: ""
-  summary: Healthcare professional with 7 years of combined experience in healthcare strategy consulting, policy research and project management. 
+  summary: Healthcare professional with 7 years of combined experience in healthcare strategy consulting, policy research and project management.
 
   social_networks:
-    - network: https://www.linkedin.com/in/vishakha-jain/
-      username: Vishakha Jain
     - network: LinkedIn
-    network: https://scholar.google.com/citations?view_op=list_works&hl=en&user=3-b96uYAAAAJ
       username: Vishakha Jain
-    - network: google scholar 
-     
+      url: https://www.linkedin.com/in/vishakha-jain/
+    - network: Google Scholar
+      username: Vishakha Jain
+      url: https://scholar.google.com/citations?view_op=list_works&hl=en&user=3-b96uYAAAAJ
+
   address:
-    street: 141 Wellesley Crescent 
+    street: 141 Wellesley Crescent
     city: Redwood City
     region: California
-    postalCode: CA 94062
+    postalCode: "94062"
     countryCode: US
 
   sections:
     Education:
       - institution: University of California, Irvine
         location: Irvine, California
-
         area: Biotechnology Management
-        studyType: Masters of Science 
+        studyType: Masters of Science
         start_date: 2017
         end_date: 2019
         GPA: 3.62
-      
+
       - institution: Jaypee University of Information Technology
         location: India
         area: Biotechnology
         studyType: Bachelors of Engineering
         start_date: 2011
         end_date: 2016
-        
+
     Experience:
       - company: Acumen LLC
         position: Lead Research Analyst
@@ -52,14 +51,14 @@ cv:
         location: Singapore, SG
         start_date: 2022
         end_date: 2023
-        summary: Led and managed quantitative and qualitative market research projects to support product launch for pharma assets
-       
+        summary: Led and managed quantitative and qualitative market research projects to support product launch for pharma assets.
+
       - company: Syneos Health
         position: Consultant
         location: South San Francisco, CA
         start_date: 2020
         end_date: 2022
-        summary: Led and managed projects related to launch management support, forecasting, market assessment and market strategy
+        summary: Led and managed projects related to launch management support, forecasting, market assessment and market strategy.
 
       - company: Adivo Associates LLC
         position: Associate Consultant
@@ -80,56 +79,75 @@ cv:
         location: San Francisco, CA
         start_date: 2025-01-31
         end_date: Present
-        summary: Collaborated and supported team members in organizing biotech/pharma events 
+        summary: Collaborated and supported team members in organizing biotech/pharma events.
 
     Publications:
-      - title: Microalage based Pharmaceuticals and Neutraceuticals: an emerging field with immense market potential
+      - title: "Microalage based Pharmaceuticals and Neutraceuticals: an emerging field with immense market potential"
         authors:
-          - Durga Jha, Vishakha Jain, Brinda Sharma, Anil Kant, Vijay Kumar Garlapati
+          - Durga Jha
+          - Vishakha Jain
+          - Brinda Sharma
+          - Anil Kant
+          - Vijay Kumar Garlapati
         publisher: ChemBioEng Reviews
         releaseDate: 2017-05-22
         url: https://onlinelibrary.wiley.com/doi/abs/10.1002/cben.201600023
-        summary: Describes the advantages of microalage in the pharmaceutical and neutraceutical industry due to its Generally Regarded as Safe (GRAS) status. 
+        summary: Describes the advantages of microalage in the pharmaceutical and neutraceutical industry due to its Generally Regarded as Safe (GRAS) status.
 
     Skills:
       - name: Market Research
         level: Advanced
-        keywords: Quantitative Research, Qualitative Research
-
-        name: Business Strategy
+        keywords:
+          - Quantitative Research
+          - Qualitative Research
+      - name: Business Strategy
         level: Advanced
-        keywords: Market Opportunity Assessment, Launch Strategy, Competitive Intelligence, Commercial Due Diligence 
-        
-        name: Project Management
+        keywords:
+          - Market Opportunity Assessment
+          - Launch Strategy
+          - Competitive Intelligence
+          - Commercial Due Diligence
+      - name: Project Management
         level: Advanced
-        keywords: MS-Project, Smartsheet 
-
-        name: Cross-Functional Collaboration
+        keywords:
+          - MS-Project
+          - Smartsheet
+      - name: Cross-Functional Collaboration
         level: Advanced
-        keywords: managing diverse teams, collaborating with diverse stakeholders
-
-        name: Data Analysis
+        keywords:
+          - Managing diverse teams
+          - Collaborating with diverse stakeholders
+      - name: Data Analysis
         level: Advanced
-        keywords: quantitative data analysis, qualitative data analysis 
+        keywords:
+          - Quantitative data analysis
+          - Qualitative data analysis
 
     Languages:
       - name: English
         summary: "Fluent"
 
     Interests:
-      - name: Strategic Planning 
-        keywords: "Strategic Insights, Strategic Planning, Strategic Initiatives" 
-
-        name: Project Management
-        keywords:"Project Manager, Program Manager, Lead Coordinator"
-
-        name: Healthcare
-        keywords:"Biotech, Pharma, Public Health"
+      - name: Strategic Planning
+        keywords:
+          - Strategic Insights
+          - Strategic Planning
+          - Strategic Initiatives
+      - name: Project Management
+        keywords:
+          - Project Manager
+          - Program Manager
+          - Lead Coordinator
+      - name: Healthcare
+        keywords:
+          - Biotech
+          - Pharma
+          - Public Health
 
     Certificates:
       - name: Intro to SQL for Data Science
         date: 2019-05-01
-        issuer: Data camp
+        issuer: DataCamp
         icon: fa-solid fa-location-dot
 
       - name: Investment Evaluation
