@@ -155,7 +155,7 @@ cv:
         issuer: LinkedIn
         icon: fa-solid fa-tag
 
-      - name: Excel Data Analysis: Forecasting
+      - name: "Excel Data Analysis: Forecasting"
         date: 2020-10-01
         issuer: LinkedIn
         icon: fa-solid fa-envelope
