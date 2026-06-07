@@ -1,13 +1,23 @@
 cv:
   name: Vishakha Jain
+  label: Healthcare Professional
   email: vishakhj@uci.edu
   location: Redwood City, CA
+  image: ""
+  summary: Healthcare professional with 7 years of combined experience in healthcare strategy consulting, policy research and project management.
 
   social_networks:
     - network: LinkedIn
       username: vishakha-jain
     - network: Google Scholar
       username: Vishakha Jain
+
+  address:
+    street: 141 Wellesley Crescent
+    city: Redwood City
+    region: California
+    postalCode: "94062"
+    countryCode: US
 
   sections:
     Education:
@@ -17,7 +27,7 @@ cv:
         studyType: Masters of Science
         start_date: 2017
         end_date: 2019
-        GPA: "3.62"
+        score: "3.62"
 
       - institution: Jaypee University of Information Technology
         location: India
@@ -84,31 +94,23 @@ cv:
     Skills:
       - name: Market Research
         level: Advanced
-        keywords:
-          - Quantitative Research
-          - Qualitative Research
+        keywords: "Quantitative Research, Qualitative Research"
+
       - name: Business Strategy
         level: Advanced
-        keywords:
-          - Market Opportunity Assessment
-          - Launch Strategy
-          - Competitive Intelligence
-          - Commercial Due Diligence
+        keywords: "Market Opportunity Assessment, Launch Strategy, Competitive Intelligence, Commercial Due Diligence"
+
       - name: Project Management
         level: Advanced
-        keywords:
-          - MS-Project
-          - Smartsheet
+        keywords: "MS-Project, Smartsheet"
+
       - name: Cross-Functional Collaboration
         level: Advanced
-        keywords:
-          - Managing diverse teams
-          - Collaborating with diverse stakeholders
+        keywords: "Managing diverse teams, Collaborating with diverse stakeholders"
+
       - name: Data Analysis
         level: Advanced
-        keywords:
-          - Quantitative data analysis
-          - Qualitative data analysis
+        keywords: "Quantitative data analysis, Qualitative data analysis"
 
     Languages:
       - name: English
@@ -116,20 +118,13 @@ cv:
 
     Interests:
       - name: Strategic Planning
-        keywords:
-          - Strategic Insights
-          - Strategic Planning
-          - Strategic Initiatives
+        keywords: "Strategic Insights, Strategic Planning, Strategic Initiatives"
+
       - name: Project Management
-        keywords:
-          - Project Manager
-          - Program Manager
-          - Lead Coordinator
+        keywords: "Project Manager, Program Manager, Lead Coordinator"
+
       - name: Healthcare
-        keywords:
-          - Biotech
-          - Pharma
-          - Public Health
+        keywords: "Biotech, Pharma, Public Health"
 
     Certificates:
       - name: Intro to SQL for Data Science
