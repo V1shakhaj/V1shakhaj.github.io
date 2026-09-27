@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://V1shakhaj.github.io//sitemap.xml
