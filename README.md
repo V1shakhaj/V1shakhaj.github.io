@@ -13,5 +13,5 @@ Personal site for Vishakha Jain. Plain HTML/CSS, no build step.
 
 - Styles: `assets/css/styles.css` (change `--accent` to recolor the site)
 - Photo: add `assets/img/prof_pic.jpg` (the "VJ" initials show until it exists)
-- Résumé download: `assets/docs/Vishakha_Jain_Resume.pdf`
+- Resume download: `assets/docs/Vishakha_Jain_Resume.pdf`
 - `.nojekyll` tells GitHub Pages to serve the files as-is.
