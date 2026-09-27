@@ -210,17 +210,21 @@ h1, h2, h3 {
   gap: 32px;
   padding-bottom: 112px;
 }
-.stat { border-top: 2px solid var(--ink); padding-top: 20px; }
+.stat { display: flex; flex-direction: column; }
 .stat-icon {
+  /* Every icon fills the same 56px slot above the line so the lines align */
   display: block;
-  height: 56px;
+  align-self: flex-start;
+  height: 32px;
   width: auto;
-  margin-bottom: 20px;
+  margin: 24px 0 12px;
   color: var(--accent);
 }
-.stat-map { height: auto; width: 100%; max-width: 280px; margin-top: -8px; }
+.stat-map { height: 56px; margin: 0 0 12px; }
 .stat strong {
   display: block;
+  border-top: 2px solid var(--ink);
+  padding-top: 20px;
   font-family: var(--serif);
   font-weight: 400;
   font-size: 56px;
@@ -423,8 +427,9 @@ h1, h2, h3 {
 
   .stats { gap: 28px 20px; padding-bottom: 56px; }
   .stat strong { font-size: 38px; }
-  .stat-icon { height: 40px; margin-bottom: 14px; }
-  .stat-map { height: auto; max-width: 100%; margin-top: 0; }
+  .stat-icon { height: 24px; margin: 18px 0 10px; }
+  .stat-map { height: 42px; margin: 0 0 10px; }
+  .stat strong { padding-top: 14px; }
   .stat span { font-size: 13px; }
 
   .page-head { padding: 48px 0 32px; }
