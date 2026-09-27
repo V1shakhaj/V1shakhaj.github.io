@@ -211,6 +211,14 @@ h1, h2, h3 {
   padding-bottom: 112px;
 }
 .stat { border-top: 2px solid var(--ink); padding-top: 20px; }
+.stat-icon {
+  display: block;
+  height: 56px;
+  width: auto;
+  margin-bottom: 20px;
+  color: var(--accent);
+}
+.stat-map { height: auto; width: 100%; max-width: 280px; margin-top: -8px; }
 .stat strong {
   display: block;
   font-family: var(--serif);
@@ -415,6 +423,8 @@ h1, h2, h3 {
 
   .stats { gap: 28px 20px; padding-bottom: 56px; }
   .stat strong { font-size: 38px; }
+  .stat-icon { height: 40px; margin-bottom: 14px; }
+  .stat-map { height: auto; max-width: 100%; margin-top: 0; }
   .stat span { font-size: 13px; }
 
   .page-head { padding: 48px 0 32px; }
