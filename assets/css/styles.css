@@ -172,7 +172,7 @@ h1, h2, h3 {
 /* Home hero */
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 420px;
+  grid-template-columns: minmax(0, 1fr) auto;
   gap: 96px;
   align-items: center;
   padding: 104px 0 96px;
@@ -187,7 +187,9 @@ h1, h2, h3 {
 .hero p { margin: 0; font-size: 20px; color: var(--muted); max-width: 640px; }
 .hero .meta { font-size: 15px; color: var(--subtle); }
 .portrait {
-  aspect-ratio: 420 / 520;
+  /* Sized to the photo's native 256x220 so it isn't upscaled */
+  width: 256px;
+  aspect-ratio: 256 / 220;
   border-radius: 24px;
   background: var(--photo);
   display: flex;
@@ -195,7 +197,7 @@ h1, h2, h3 {
   justify-content: center;
   overflow: hidden;
   font-family: var(--serif);
-  font-size: 96px;
+  font-size: 72px;
   color: var(--accent);
 }
 .portrait { position: relative; }
@@ -342,7 +344,7 @@ h1, h2, h3 {
 
 /* Responsive */
 @media (max-width: 1024px) {
-  .hero { grid-template-columns: minmax(0, 1fr) 320px; gap: 56px; }
+  .hero { grid-template-columns: minmax(0, 1fr) auto; gap: 56px; }
   .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .job { grid-template-columns: 180px minmax(0, 1fr); gap: 40px; }
   .contact-grid { grid-template-columns: 1fr; }
@@ -370,7 +372,7 @@ h1, h2, h3 {
   .site-header { position: relative; }
 
   .hero { grid-template-columns: 1fr; gap: 32px; padding: 40px 0 48px; }
-  .hero .portrait { order: -1; aspect-ratio: auto; height: 280px; font-size: 72px; }
+  .hero .portrait { order: -1; }
   .hero p { font-size: 17px; }
   .btn-row { flex-direction: column; }
   .btn { width: 100%; }
