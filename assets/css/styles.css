@@ -212,15 +212,15 @@ h1, h2, h3 {
 }
 .stat { display: flex; flex-direction: column; }
 .stat-icon {
-  /* Icons match the 56px number size so the lines align */
+  /* Same height for every icon so the lines under them align */
   display: block;
-  align-self: flex-start;
-  height: 56px;
+  align-self: center;
+  height: 80px;
   width: auto;
   margin: 0 0 12px;
   color: var(--accent);
 }
-.stat-map { height: 56px; margin: 0 0 12px; }
+.stat-map { height: 80px; margin: 0 0 12px; }
 .stat strong {
   display: block;
   border-top: 2px solid var(--ink);
@@ -427,7 +427,7 @@ h1, h2, h3 {
 
   .stats { gap: 28px 20px; padding-bottom: 56px; }
   .stat strong { font-size: 38px; }
-  .stat-icon, .stat-map { height: 38px; margin: 0 0 10px; }
+  .stat-icon, .stat-map { height: 52px; margin: 0 0 10px; }
   .stat strong { padding-top: 14px; }
   .stat span { font-size: 13px; }
 
