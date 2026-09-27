@@ -215,12 +215,13 @@ h1, h2, h3 {
   /* Same height for every icon so the lines under them align */
   display: block;
   align-self: center;
-  height: 80px;
+  height: 112px;
   width: auto;
-  margin: 0 0 12px;
+  max-width: 100%;
+  margin: 0 0 16px;
   color: var(--accent);
 }
-.stat-map { height: 80px; margin: 0 0 12px; }
+.stat-map { height: 112px; margin: 0 0 16px; }
 .stat strong {
   display: block;
   border-top: 2px solid var(--ink);
@@ -427,7 +428,7 @@ h1, h2, h3 {
 
   .stats { gap: 28px 20px; padding-bottom: 56px; }
   .stat strong { font-size: 38px; }
-  .stat-icon, .stat-map { height: 52px; margin: 0 0 10px; }
+  .stat-icon, .stat-map { height: 64px; margin: 0 0 10px; }
   .stat strong { padding-top: 14px; }
   .stat span { font-size: 13px; }
 
