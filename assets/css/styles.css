@@ -335,7 +335,7 @@ h1, h2, h3 {
 /* Contact page */
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 32px;
 }
 .contact-grid .card a { font-size: 18px; word-break: break-word; }
@@ -398,4 +398,35 @@ h1, h2, h3 {
   .contact-inner { flex-direction: column; align-items: flex-start; gap: 32px; margin-bottom: 32px; }
   .contact-links { font-size: 16px; }
   .footer-row { flex-direction: column; font-size: 13px; }
+}
+
+/* Publications */
+.pub {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 64px;
+  border-top: 1px solid var(--rule);
+  padding: 40px 0 8px;
+}
+.pub-meta { font-size: 15px; color: var(--subtle); }
+.pub-meta .dates { font-weight: 600; color: var(--ink); }
+.pub-cites { margin-top: 12px; color: var(--accent); font-weight: 600; }
+.pub h3 { font-size: 30px; line-height: 1.25; max-width: 860px; }
+.pub h3 a { text-decoration: none; }
+.pub h3 a:hover { text-decoration: underline; }
+.pub-authors { margin: 16px 0 4px; color: var(--body); }
+.pub-authors strong { color: var(--ink); }
+.pub-venue { margin: 0; color: var(--muted); }
+.pub-summary { margin: 20px 0 0; max-width: 860px; color: var(--body); }
+.pub-links { display: flex; flex-wrap: wrap; gap: 8px 32px; margin-top: 16px; }
+
+@media (max-width: 1024px) {
+  .pub { grid-template-columns: 180px minmax(0, 1fr); gap: 40px; }
+}
+@media (max-width: 760px) {
+  .pub { grid-template-columns: 1fr; gap: 8px; padding: 24px 0 0; }
+  .pub-meta { display: flex; flex-wrap: wrap; gap: 4px 12px; }
+  .pub-cites { margin-top: 0; }
+  .pub h3 { font-size: 22px; }
+  .pub-authors, .pub-venue, .pub-summary { font-size: 15px; }
 }

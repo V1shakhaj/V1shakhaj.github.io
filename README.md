@@ -8,6 +8,7 @@ Personal site for Vishakha Jain. Plain HTML/CSS, no build step.
 | Experience | `experience.html` |
 | Education | `education.html` |
 | Skills | `skills.html` |
+| Publications | `publications.html` |
 | Contact | `contact.html` |
 
 - Styles: `assets/css/styles.css` (change `--accent` to recolor the site)
